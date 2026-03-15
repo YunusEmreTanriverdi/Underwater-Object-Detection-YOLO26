@@ -31,3 +31,6 @@ results = model.predict(source='your_test_image.jpg', conf=0.25, save=True)
 ```
 ## 📊 Sample Output
 ![Detection Result](UODDexample.png)
+> **Note on Model Limitations:** As seen in the sample output, the model successfully detects most targets but may struggle with highly camouflaged objects
+(like the fish at the bottom center). This is a known challenge in underwater computer vision due to low contrast and background blending.
+Future improvements could include data augmentation specifically for camouflaged environments.
