@@ -30,3 +30,6 @@ from ultralytics import YOLO
 
 model = YOLO('best.pt')
 results = model.predict(source='your_test_image.jpg', conf=0.25, save=True)
+
+## 📊 Sample Output
+![Detection Result](UODDexample.png)
