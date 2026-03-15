@@ -1,4 +1,3 @@
-
 # 🌊 Underwater Object Detection with YOLO26
 
 This project focuses on detecting and localizing marine life (fish, jellyfish, starfish, etc.) in underwater environments using the **YOLO26-nano** architecture.
