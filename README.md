@@ -30,6 +30,7 @@ from ultralytics import YOLO
 
 model = YOLO('best.pt')
 results = model.predict(source='your_test_image.jpg', conf=0.25, save=True)
+```  <-- Buradaki tırnaklar kod bloğunu kapatır.
 
 ## 📊 Sample Output
 ![Detection Result](UODDexample.png)
