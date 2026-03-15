@@ -24,6 +24,8 @@ This project focuses on detecting and localizing marine life (fish, jellyfish, s
 
 ## Sample Prediction
 
+## 💻 Sample Prediction
+
 ```python
 from ultralytics import YOLO
 
