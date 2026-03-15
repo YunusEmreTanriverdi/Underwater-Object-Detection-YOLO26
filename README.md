@@ -1,4 +1,4 @@
-# 🌊 Underwater Object Detection with YOLO26
+#  Underwater Object Detection with YOLO26
 
 This project focuses on detecting and localizing marine life (fish, jellyfish, starfish, etc.) in underwater environments using the **YOLO26-nano** architecture.
 
@@ -16,12 +16,12 @@ This project focuses on detecting and localizing marine life (fish, jellyfish, s
 # Confusion Matrix
 ![Confusion Matrix](UODDcmatrix.png)
 
-## 📂 Repository Contents
+##  Repository Contents
 * `UnderwaterObjectDetection.ipynb`: Full source code for training and evaluation.
 * `best.pt`: The trained model weights (ready for inference).
 * `UODDexample.png`: Sample detection output from the test set.
 
-## 💻 Sample Prediction
+##  Sample Prediction
 
 ```python
 from ultralytics import YOLO
